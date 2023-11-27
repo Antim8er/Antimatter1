@@ -37,11 +37,66 @@ body {
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
-  transition: 1.4s;
+  transition: 0.5s;
 }
 
 .navbar a:hover,
 .navbar a.active{
   color: #ffff00;
   
+}
+.home {
+  color: white;
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.home-content {
+  max-width: 600px;
+  
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.home-content h3{
+  font-size: 33px;
+  font-weight: 700;
+  color: #ffff00;
+}
+
+.home-content p{
+  font-size: 18px;
+}
+.home-content .btn-box{
+  justify-content: space-between;
+  display: flex;
+  width: 345px;
+  height: 90px;
+  align-items: center;
+  padding-top: 30px;
+  
+}
+.btn-box a{
+  display: inline-flex;
+  background: #ffff00;
+  width: 150px;
+  height: 100%;
+  border: 2px solid #ffff00;
+  border-radius: 8px;
+  font-size: 19px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.btn-box a:nth-child(2){
+  background: transparent;
+  color: #ffff01;
 }
