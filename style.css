@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #101000;
+  background: #010101;
   
 }
 
@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  background: #101000;
+ 
 }
 
 .logo{
@@ -55,8 +55,6 @@ body {
   padding: 0 10%;
   
   
-  
- 
 }
 
 .home-content {
@@ -108,4 +106,14 @@ body {
 .btn-box a:nth-child(2){
   background: transparent;
   color: #ffff01;
+}
+.btn-box a:nth-child(2):hover{
+  background: #ffff00;
+  color: black;
+  transition: 0.3s;
+}
+.btn-box a:nth-child(1):hover{
+  background: #010101;
+  color: #ffff00;
+  transition: 0.3s;
 }
