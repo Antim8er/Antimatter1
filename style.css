@@ -110,12 +110,12 @@ body {
 .btn-box a:nth-child(2):hover{
   background: #ffff00;
   color: black;
-  transition: 0.3s;
+  transition: transform 0.5s, background 0.5s;
 }
 .btn-box a:nth-child(1):hover{
   background: #010101;
   color: #ffff00;
-  transition: 0.3s;
+  transition: transform 0.5s, background 0.5s;
 }
 
 .container {
