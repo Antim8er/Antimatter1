@@ -50,7 +50,7 @@ body {
 .home {
   color: white;
   display: flex;
-  height: 1000px;
+  height: 50vh;
   align-items: center;
   padding: 0 10%;
   
@@ -178,4 +178,31 @@ body {
 }
 .services:hover i{
   color: black;
+}
+.social{
+  color: white;
+  padding: 25px 10px;
+  border-left: 2px solid white;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.social a {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+  height: 40px;
+  background: transparent;
+  border-bottom: 1px solid yellow;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.social a:hover{
+  color: yellow;
 }
