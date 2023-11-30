@@ -118,3 +118,64 @@ body {
   transition: 0.3s;
 }
 
+.container {
+  height: 100vh;
+  color: white;
+  padding: 0 10%;
+  width: 100%;
+}
+
+.container h1{
+  margin-bottom: 60px;
+  padding-top: 10%;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+}
+
+.container h1::after{
+  content: '';
+  background: #ffff00;
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  
+}
+
+.services {
+  text-align: center;
+  padding: 25px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 0.5s, background 0.5s;
+  
+}
+.services i{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #ffff00;
+}
+
+.services h2{
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.services:hover{
+  background: #fff010;
+  color: black;
+  transform: scale(1.05);
+}
+.services:hover i{
+  color: black;
+}
