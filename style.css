@@ -53,6 +53,9 @@ body {
   height: 1000px;
   align-items: center;
   padding: 0 10%;
+  background: url(bgi.jpg);
+  background-size: cover;
+  
   
   
 }
@@ -113,7 +116,7 @@ body {
   transition: transform 0.5s, background 0.5s;
 }
 .btn-box a:nth-child(1):hover{
-  background: #010101;
+  background: transparent;
   color: #ffff00;
   transition: transform 0.5s, background 0.5s;
 }
@@ -215,6 +218,7 @@ body {
   flex-direction: column;
   padding: 25px 50px;
   color: white;
+  
   
 }
 .heading{
